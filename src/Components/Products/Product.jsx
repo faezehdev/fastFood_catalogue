@@ -13,7 +13,7 @@ export default function Product({strMeal,strMealThumb}) {
      
      </div>
      <div className="Title min-h-[50px] w-full flex justify-center items-center py-[.5em]">
-        <p className="text-slate-800 text-lg font-medium font-IranSans400 text-center">  {strMeal}</p>
+        <p className="text-slate-800 text-lg font-medium font-Roboto400 text-center">  {strMeal}</p>
      </div>
 
      {/* <div className="btn w-full mt-auto flex justify-center pb-5">
