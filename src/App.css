@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
     font-family: 'IranSans300';
-    src: url("../public/fonts/IRANSans\(FaNum\)_Light.ttf");
+    src: url("./fonts/IRANSans\(FaNum\)_Light.ttf");
   }
   body{
     background-color: rgb(232, 236, 239);
@@ -13,7 +13,7 @@
   }
   @font-face {
     font-family: 'IranSans400';
-    src: url("../public/fonts/IRANSans\(FaNum\)_Medium.ttf");
+    src: url("./fonts/IRANSans\(FaNum\)_Medium.ttf");
   }
   .font-IranSans400{
     font-family: 'IranSans400';
@@ -22,7 +22,7 @@
   }
   @font-face {
     font-family: 'IranSans800';
-    src: url("../public/fonts/IRANSans\(FaNum\)_Bold.ttf");
+    src: url("./fonts/IRANSans\(FaNum\)_Bold.ttf");
   }
   .font-IranSans800{
     font-family: 'IranSans800';
@@ -31,7 +31,7 @@
   }
   @font-face {
     font-family: 'IranSans900';
-    src: url("../public/fonts/IRANSans\(FaNum\)_Black.ttf");
+    src: url("./IRANSans\(FaNum\)_Black.ttf");
   }
   .font-IranSans900{
     font-family: 'IranSans900';
@@ -40,7 +40,7 @@
   }
   @font-face {
     font-family: 'Roboto300';
-    src: url("../public/fonts/Roboto-Light.ttf");
+    src: url("./fonts/Roboto-Light.ttf");
   }
   .font-Roboto300{
     font-family: 'Roboto300';
@@ -49,7 +49,7 @@
   }
   @font-face {
     font-family: 'Roboto400';
-    src: url("../public/fonts/Roboto-Medium.ttf");
+    src: url("./fonts/Roboto-Medium.ttf");
   }
   .font-Roboto400{
     font-family: 'Roboto400';
@@ -58,7 +58,7 @@
   }
   @font-face {
     font-family: 'Roboto500';
-    src: url("../public/fonts/Roboto-Regular.ttf");
+    src: url("./fonts/Roboto-Regular.ttf");
   }
   .font-Roboto500{
     font-family: 'Roboto500';
@@ -67,7 +67,7 @@
   }
   @font-face {
     font-family: 'Roboto800';
-    src: url("../public/fonts/Roboto-Bold.ttf");
+    src: url("./fonts/Roboto-Bold.ttf");
   }
   .font-Roboto800{
     font-family: 'Roboto800';
@@ -76,7 +76,7 @@
   }
   @font-face {
     font-family: 'Roboto900';
-    src: url("../public/fonts/Roboto-Black.ttf");
+    src: url("./fonts/Roboto-Black.ttf");
   }
   .font-Roboto900{
     font-family: 'Roboto900';

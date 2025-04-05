@@ -29,7 +29,7 @@ export default function ListPro() {
        <p className='text-center text-lg text-slate-800 font-Roboto800 mx-auto  capitalize'>
                   products not found
                 </p>
-                <img src="/images/404.jpg" alt="" className='w-[400px] mt-[2em]' />
+                <img src="./images/404.jpg" alt="" className='w-[400px] mt-[2em]' />
                 </div>
                 </motion.div>
          
