@@ -31,7 +31,7 @@
   }
   @font-face {
     font-family: 'IranSans900';
-    src: url("./IRANSans\(FaNum\)_Black.ttf");
+    src: url("./fonts/IRANSans\(FaNum\)_Black.ttf");
   }
   .font-IranSans900{
     font-family: 'IranSans900';
