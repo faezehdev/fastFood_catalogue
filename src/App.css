@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@font-face {
+    font-family: 'IranSans300';
+    src: url("../public/fonts/IRANSans\(FaNum\)_Light.ttf");
+  }
+  body{
+    background-color: rgb(232, 236, 239);
+  }
+  .font-IranSans300{
+    font-family: 'IranSans300';
+    font-weight:300;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'IranSans400';
+    src: url("../public/fonts/IRANSans\(FaNum\)_Medium.ttf");
+  }
+  .font-IranSans400{
+    font-family: 'IranSans400';
+    font-weight:400;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'IranSans800';
+    src: url("../public/fonts/IRANSans\(FaNum\)_Bold.ttf");
+  }
+  .font-IranSans800{
+    font-family: 'IranSans800';
+    font-weight:800;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'IranSans900';
+    src: url("../public/fonts/IRANSans\(FaNum\)_Black.ttf");
+  }
+  .font-IranSans900{
+    font-family: 'IranSans900';
+    font-weight: 900;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto300';
+    src: url("../public/fonts/Roboto-Light.ttf");
+  }
+  .font-Roboto300{
+    font-family: 'Roboto300';
+    font-weight: 300;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto400';
+    src: url("../public/fonts/Roboto-Medium.ttf");
+  }
+  .font-Roboto400{
+    font-family: 'Roboto400';
+    font-weight: 400;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto500';
+    src: url("../public/fonts/Roboto-Regular.ttf");
+  }
+  .font-Roboto500{
+    font-family: 'Roboto500';
+    font-weight: 500;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto800';
+    src: url("../public/fonts/Roboto-Bold.ttf");
+  }
+  .font-Roboto800{
+    font-family: 'Roboto800';
+    font-weight: 800;
+    display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto900';
+    src: url("../public/fonts/Roboto-Black.ttf");
+  }
+  .font-Roboto900{
+    font-family: 'Roboto900';
+    font-weight: 900;
+    display: swap;
+  }
+  .AddToBasket:hover svg{
+fill :white !important
+  }
+
+  /* KEYFRAMES */
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.spinner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.circle-border {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(63,249,220);
+  background: linear-gradient(0deg, rgba(63,249,220,0.1) 33%, oklch(72.3% 0.219 149.579) 100%);
+  animation: spin .8s linear 0s infinite;
+}
+
+.circle-core {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+
+}
+.pro_placeholder{
+  height: 200px;
+  animation: image-loading 1s linear infinite alternate;
+}
+@keyframes image-loading {
+  0%{
+    background-color: hsl(200,20%,80%);
+  }
+  100%{
+    background-color: hsl(200,20%,95%);
+  }
+
+}
